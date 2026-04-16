@@ -1,0 +1,65 @@
+/* Page styling */
+body {
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container */
+main {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Form elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs and select */
+input,
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border 0.2s ease;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #357abd;
+}
