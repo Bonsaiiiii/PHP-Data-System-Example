@@ -44,12 +44,14 @@
         </form>
     </div>
 
-    <form class="searchform" action="search.php" method="post">
-        <label for="search">Search for user:</label>
-        <input type="text" id="search" name="usersearch"
-        placeholder="Search...">
-        <button>Search</button>
-    </form>
+    <div>
+        <form class="searchform" action="search.php" method="post">
+            <label for="search">Search for user:</label>
+            <input type="text" id="search" name="usersearch"
+            placeholder="Search...">
+            <button>Search</button>
+        </form>
+    </div>
 
 </body>  
 

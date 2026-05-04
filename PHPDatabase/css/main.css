@@ -1,11 +1,14 @@
 /* Page styling */
 body {
+    font-family: Arial, sans-serif;
     background-color: #f4f6f8;
+
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     flex-direction: column;
+    align-items: center;
+
+    min-height: 100vh;
+    padding: 40px 20px;
 }
 
 /* Form container */
@@ -63,4 +66,9 @@ button {
 /* Button hover */
 button:hover {
     background-color: #357abd;
+}
+
+div {
+    margin-bottom: 25px;
+    text-align: center;
 }
