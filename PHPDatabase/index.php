@@ -1,3 +1,12 @@
+<?php
+/*
+    session_start(); //starting a session to store data
+
+    $_SESSION["username"] = "DAVI"; //variable with static name
+    unset($_SESSION["username"]); //unsetting the username variable
+*/
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
